@@ -1,0 +1,5 @@
+dataset: kitti
+dim: 32
+method: vptdeep
+num_class: 4
+scale: 10.0

@@ -1,0 +1,5 @@
+dataset: food101
+dim: 8
+method: vptdeep
+num_class: 101
+scale: 0.1

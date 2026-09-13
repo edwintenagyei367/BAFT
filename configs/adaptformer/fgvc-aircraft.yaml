@@ -1,0 +1,5 @@
+dataset: fgvc-aircraft
+dim: 8
+method: adaptformer
+num_class: 100
+scale: 0.1

@@ -1,0 +1,5 @@
+dataset: clevr_count
+dim: 32
+method: vptdeep
+num_class: 8
+scale: 1.0

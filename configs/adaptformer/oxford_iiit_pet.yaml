@@ -1,0 +1,5 @@
+dataset: oxford_iiit_pet
+dim: 32
+method: adaptformer
+num_class: 37
+scale: 0.01

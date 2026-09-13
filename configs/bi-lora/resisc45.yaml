@@ -1,0 +1,6 @@
+bit: 1
+dataset: resisc45
+dim: 32
+method: bi-lora
+num_class: 45
+scale: 10.0

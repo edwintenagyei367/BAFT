@@ -1,0 +1,5 @@
+dataset: resisc45
+dim: 32
+method: adaptformer
+num_class: 45
+scale: 10.0

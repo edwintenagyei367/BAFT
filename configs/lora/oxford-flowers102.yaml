@@ -1,0 +1,5 @@
+dataset: oxford-flowers102
+dim: 8
+method: lora
+num_class: 102
+scale: 0.1

@@ -1,0 +1,6 @@
+bit: 1
+dataset: diabetic_retinopathy
+dim: 32
+method: bi-adaptformer
+num_class: 5
+scale: 1.0

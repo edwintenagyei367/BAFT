@@ -1,0 +1,6 @@
+bit: 1
+dataset: svhn
+dim: 32
+method: bi-lora
+num_class: 10
+scale: 10.0

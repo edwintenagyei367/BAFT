@@ -1,0 +1,5 @@
+dataset: svhn
+dim: 32
+method: vptdeep
+num_class: 10
+scale: 10.0

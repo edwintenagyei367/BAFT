@@ -1,0 +1,6 @@
+bit: 1
+dataset: patch_camelyon
+dim: 32
+method: bi-adaptformer
+num_class: 2
+scale: 1.0

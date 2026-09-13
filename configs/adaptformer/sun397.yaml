@@ -1,0 +1,5 @@
+dataset: sun397
+dim: 32
+method: adaptformer
+num_class: 397
+scale: 0.1

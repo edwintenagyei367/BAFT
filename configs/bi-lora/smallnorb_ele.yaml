@@ -1,0 +1,6 @@
+bit: 1
+dataset: smallnorb_ele
+dim: 32
+method: bi-lora
+num_class: 9
+scale: 1.0

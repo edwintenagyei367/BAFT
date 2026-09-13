@@ -1,0 +1,6 @@
+bit: 1
+dataset: oxford_flowers102
+dim: 32
+method: bi-adaptformer
+num_class: 102
+scale: 1.0

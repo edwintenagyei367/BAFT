@@ -1,0 +1,5 @@
+dataset: dtd
+dim: 32
+method: vptdeep
+num_class: 47
+scale: 0.01

@@ -1,0 +1,5 @@
+dataset: dsprites_ori
+dim: 32
+method: vptdeep
+num_class: 16
+scale: 0.1

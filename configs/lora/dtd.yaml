@@ -1,0 +1,5 @@
+dataset: dtd
+dim: 32
+method: lora
+num_class: 47
+scale: 0.01

@@ -1,0 +1,5 @@
+dataset: oxford-pets
+dim: 8
+method: vptdeep
+num_class: 37
+scale: 0.1

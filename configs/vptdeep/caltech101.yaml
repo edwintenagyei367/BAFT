@@ -1,0 +1,5 @@
+dataset: caltech101
+dim: 32
+method: vptdeep
+num_class: 102
+scale: 10.0

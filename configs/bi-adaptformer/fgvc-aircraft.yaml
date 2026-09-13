@@ -1,0 +1,6 @@
+bit: 1
+dataset: fgvc-aircraft
+dim: 32
+method: bi-adaptformer
+num_class: 100
+scale: 0.1

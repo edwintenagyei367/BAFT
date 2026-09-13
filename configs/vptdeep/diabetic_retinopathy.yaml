@@ -1,0 +1,5 @@
+dataset: diabetic_retinopathy
+dim: 32
+method: vptdeep
+num_class: 5
+scale: 10.0

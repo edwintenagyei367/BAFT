@@ -1,0 +1,5 @@
+dataset: dmlab
+dim: 32
+method: vptdeep
+num_class: 6
+scale: 10.0
