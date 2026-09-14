@@ -1,1 +1,2 @@
-# Coming Soon
+# BAFT
+Model checkpoints coming soon
