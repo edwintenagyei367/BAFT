@@ -20,6 +20,10 @@ Download the [pretrained model ViT-B/16](https://storage.googleapis.com/vit_mode
 2. FGVC: Follow [NOAH](https://github.com/ZhangYuanhan-AI/NOAH/#data-preparation) to download the dataset.
 
 # Training Scripts
+1. Train on VTAB-1k
+  python train.py --task vtab --dataset cifar --method bi-adaptformer --lambda_value 5e-3 --feature token_mean --reg_layers all --epochs 300 --lr 1e-3 --wd 1e-4 
+2. Train on few-shot
+   python train.py --task fs --dataset cifar --fs_shot 16 --fs_seed 0 --method bi-adaptformer --bit 1 --lambda_value 1e-3 --feature token_mean --reg_layers all --epochs 100 --lr 5e-3 --wd 1e-4 
 
    
 
