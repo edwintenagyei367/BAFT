@@ -19,11 +19,39 @@ Download the [pretrained model ViT-B/16](https://storage.googleapis.com/vit_mode
 1. VTAB-1k: Please refer to [SSF](https://github.com/dongzelian/SSF) or [VPT](https://github.com/KMnP/vpt/blob/main/VTAB_SETUP.md) for preparing the 19 datasets included in VTAB-1K.
 2. FGVC: Follow [NOAH](https://github.com/ZhangYuanhan-AI/NOAH/#data-preparation) to download the dataset.
 
-# Training Scripts
-1. Train on VTAB-1k
-  python train.py --task vtab --dataset cifar --method bi-adaptformer --lambda_value 5e-3 --feature token_mean --reg_layers all --epochs 300 --lr 1e-3 --wd 1e-4 
-2. Train on few-shot
-   python train.py --task fs --dataset cifar --fs_shot 16 --fs_seed 0 --method bi-adaptformer --bit 1 --lambda_value 1e-3 --feature token_mean --reg_layers all --epochs 100 --lr 5e-3 --wd 1e-4 
+## Training Scripts
+### 1. Train on VTAB-1K
+
+```bash
+python train.py \
+  --task vtab \
+  --dataset cifar \
+  --method bi-adaptformer \
+  --lambda_value 5e-3 \
+  --feature token_mean \
+  --reg_layers all \
+  --epochs 300 \
+  --lr 1e-3 \
+  --wd 1e-4
+```
+
+### 2. Train on Few-Shot Learning
+
+```bash
+python train.py \
+  --task fs \
+  --dataset cifar \
+  --fs_shot 16 \
+  --fs_seed 0 \
+  --method bi-adaptformer \
+  --bit 1 \
+  --lambda_value 1e-3 \
+  --feature token_mean \
+  --reg_layers all \
+  --epochs 100 \
+  --lr 5e-3 \
+  --wd 1e-4
+```
 
    
 
