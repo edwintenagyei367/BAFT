@@ -44,7 +44,6 @@ python train.py \
   --fs_shot 16 \
   --fs_seed 0 \
   --method bi-adaptformer \
-  --bit 1 \
   --lambda_value 1e-3 \
   --feature token_mean \
   --reg_layers all \
