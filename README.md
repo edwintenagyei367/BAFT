@@ -56,7 +56,7 @@ We provide pretrained checkpoints for Bi-AdaptFormer and it BAFT variants.
 Please download the checkpoints from Google Drive:
 | Resource | Link |
 |---|---|
-|Checkpoints |[Download checkpoint](https://drive.google.com/drive/u/0/folders/1BYNdiA6FjN_neWJZvnSAJKJzdJeA88n0) |
+|Checkpoints |[Download checkpoints](https://drive.google.com/drive/u/0/folders/1BYNdiA6FjN_neWJZvnSAJKJzdJeA88n0) |
    
 
 
