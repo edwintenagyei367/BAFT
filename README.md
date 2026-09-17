@@ -6,9 +6,11 @@ We introduce a simple yet effective method that provides behavioral guidance dur
 predictions, capturing how samples relate in the output space, and aligning it with intermediate feature representations, we impose a task-aware constraint that minimizes the discrepancy between pairwise feature similarities and pairwise prediction similarities within each mini-batch, explicitly enforcing that samples with similar class probability distributions are encoded with correspondingly similar embeddings. This alignment structures the feature space according to the model’s evolving class-separation patterns, improving representation consistency and discriminative geometry during adaptation. Our method introduces no additional learnable parameters, and can be integrated into a wide range of PEFT techniques.
 
 # Requirements 
-Python 3.8
-torch 1.10.0
-torchvision 0.11.1
+- Python 3.8
+- torch 1.10.0
+- torchvision 0.11.1
+- timm 0.4.12
+  
 
 # Pretrained Model
 Download the [pretrained model ViT-B/16](https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz) and place it in the root folder.
