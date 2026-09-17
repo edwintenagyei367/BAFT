@@ -43,7 +43,7 @@ python train.py \
   --dataset cifar \
   --fs_shot 16 \
   --fs_seed 0 \
-  --method bi-adaptformer \
+  --method adaptformer \
   --lambda_value 1e-3 \
   --feature token_mean \
   --reg_layers all \
