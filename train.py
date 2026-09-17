@@ -358,10 +358,15 @@ if __name__ == '__main__':
                        help='feature to compute similarity graphs')
     args = parser.parse_args()
     print(args)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     utils.set_seed(args.seed)
 
     config = utils.get_config(args.method, args.dataset)
-    vit, train_dl, test_dl = build_model_and_data(args, config, evaluate=evaluate)
+    config["best_acc"] = 0
+    config["method"] = args.method
+    config["dataset"] = args.dataset
+
+    vit, train_dl, test_dl = build_model_and_data(args, config)
     vit = vit.to(device)
 
     opt, scheduler = setup_optimizer(vit, args, config)
